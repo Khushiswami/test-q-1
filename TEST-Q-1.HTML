@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>QUESTION</title>
+<style>
+	.span{
+		color: blue;
+		font-weight: 600;
+	}
+	p{
+		color: darkred;
+	}
+</style>
+</head>
+<body>
+    <h2>Question no-1</h2>
+    <h3 style="color: red; font-family: cursive;">Explain difference between var/ let const by giving examples.</h3>
+    <h2>ANS</h2>
+    <p><span class="span">VAR :-</span></br> 1 .The scope of a var variable is functional scope.</br> 2. It can be updated and re-declared into the scope.</br> 3. It can be declared without initialization. </br> 4. It can be accessed without initialization as its default value is “undefined”.</p>
+
+     <p><span  class="span">LET :-</span></br>1. The scope of a let variable is block scope.</br> 2. It can be updated but cannot be re-declared into the scope.</br> 3. It can be declared without initialization.</br> 4. It cannot be accessed without initialization, as it returns an error.</p>
+
+     <p><span  class="span">CONST :-</span></br>1. The scope of a const variable is block scope.</br> 2. It cannot be updated or re-declared into the scope.</br> 3. It cannot be declared without initialization.</br> 4. It cannot be accessed without initialization, as it cannot be declared without initialization.</p>
+ <h2>example var</h2>
+     <script>
+     
+	var a = 10
+		function f(){
+			document.write(a)
+		}
+	f();
+	 document.write(a);
+
+     </script>
+
+</body>
+</html>
